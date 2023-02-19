@@ -32,7 +32,7 @@ const Navigation = ({ web3Handler, account, changeNetwork, currentNetwork }) => 
                     <Nav>
                         { currentNetwork && account ? (
                             <Nav.Link
-                                href={`https://etherscan.io/address/${account}`}
+                                href={`https://mumbai.polygonscan.com/address/${account}`}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="button nav-button btn-sm mx-4">
